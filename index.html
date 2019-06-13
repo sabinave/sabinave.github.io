@@ -94,7 +94,251 @@
             <pclass="text-black-50 mb-0"> 14 500</p>
 
             <!-- Trigger the modal with a button -->
-            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#myModal54">More Images</button>
+            <div id='product-component-57da562f6d5'></div>
+    <script type="text/javascript">
+    /*<![CDATA[*/
+
+    (function () {
+      var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+      if (window.ShopifyBuy) {
+        if (window.ShopifyBuy.UI) {
+          ShopifyBuyInit();
+        } else {
+          loadScript();
+        }
+      } else {
+        loadScript();
+      }
+
+      function loadScript() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = scriptURL;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+        script.onload = ShopifyBuyInit;
+      }
+
+      function ShopifyBuyInit() {
+        var client = ShopifyBuy.buildClient({
+          domain: 'vonessendesign.myshopify.com',
+          storefrontAccessToken: 'c2c33151f4ffa6eeba4fecef59be5e11',
+        });
+
+        ShopifyBuy.UI.onReady(client).then(function (ui) {
+          ui.createComponent('product', {
+            id: [3706811449397],
+            node: document.getElementById('product-component-57da562f6d5'),
+            moneyFormat: '%7B%7Bamount_no_decimals%7D%7D%20kr',
+            options: {
+  "product": {
+    "variantId": "all",
+    "width": "240px",
+    "contents": {
+      "img": false,
+      "imgWithCarousel": false,
+      "title": false,
+      "variantTitle": false,
+      "price": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "text-align": "left",
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#ffffff",
+        "color": "#000000",
+        "font-family": "Crimson Text, serif",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#e6e6e6",
+          "color": "#000000"
+        },
+        "border-radius": "5px",
+        ":focus": {
+          "background-color": "#e6e6e6"
+        },
+        "font-weight": "normal"
+      },
+      "variantTitle": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "description": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "quantityInput": {
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
+      },
+      "compareAt": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      }
+    },
+    "googleFonts": [
+      "Crimson Text"
+    ]
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "styles": {
+      "button": {
+        "background-color": "#ffffff",
+        "color": "#000000",
+        "font-family": "Crimson Text, serif",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#e6e6e6",
+          "color": "#000000"
+        },
+        "border-radius": "5px",
+        ":focus": {
+          "background-color": "#e6e6e6"
+        },
+        "font-weight": "normal"
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    },
+    "googleFonts": [
+      "Crimson Text"
+    ]
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#ffffff",
+        "color": "#000000",
+        "font-family": "Crimson Text, serif",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#e6e6e6",
+          "color": "#000000"
+        },
+        "border-radius": "5px",
+        ":focus": {
+          "background-color": "#e6e6e6"
+        },
+        "font-weight": "normal"
+      },
+      "variantTitle": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "description": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "quantityInput": {
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
+      },
+      "compareAt": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      }
+    },
+    "googleFonts": [
+      "Crimson Text"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Crimson Text, serif",
+        "background-color": "#ffffff",
+        ":hover": {
+          "background-color": "#e6e6e6"
+        },
+        ":focus": {
+          "background-color": "#e6e6e6"
+        },
+        "font-weight": "normal"
+      },
+      "count": {
+        "font-size": "15px",
+        "color": "#000000",
+        ":hover": {
+          "color": "#000000"
+        }
+      },
+      "iconPath": {
+        "fill": "#000000"
+      }
+    },
+    "googleFonts": [
+      "Crimson Text"
+    ]
+  },
+  "option": {
+    "styles": {
+      "label": {
+        "font-family": "Candara, sans-serif"
+      },
+      "select": {
+        "font-family": "Candara, sans-serif"
+      }
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+          });
+        });
+      }
+    })();
+    /*]]>*/
+    </script>
             <!-- Modal -->
             <div id="myModal54" class="modal fade" role="dialog">
               <div class="modal-dialog modal-lg">
@@ -135,7 +379,251 @@
             <pclass="text-black-50 mb-0"> 11 900</p>
 
             <!-- Trigger the modal with a button -->
-            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#myModal54">More Images</button>
+            <div id='product-component-ca0faed131d'></div>
+    <script type="text/javascript">
+    /*<![CDATA[*/
+
+    (function () {
+      var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+      if (window.ShopifyBuy) {
+        if (window.ShopifyBuy.UI) {
+          ShopifyBuyInit();
+        } else {
+          loadScript();
+        }
+      } else {
+        loadScript();
+      }
+
+      function loadScript() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = scriptURL;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+        script.onload = ShopifyBuyInit;
+      }
+
+      function ShopifyBuyInit() {
+        var client = ShopifyBuy.buildClient({
+          domain: 'vonessendesign.myshopify.com',
+          storefrontAccessToken: 'c2c33151f4ffa6eeba4fecef59be5e11',
+        });
+
+        ShopifyBuy.UI.onReady(client).then(function (ui) {
+          ui.createComponent('product', {
+            id: [3705916162101],
+            node: document.getElementById('product-component-ca0faed131d'),
+            moneyFormat: '%7B%7Bamount_no_decimals%7D%7D%20kr',
+            options: {
+  "product": {
+    "variantId": "all",
+    "width": "240px",
+    "contents": {
+      "img": false,
+      "imgWithCarousel": false,
+      "title": false,
+      "variantTitle": false,
+      "price": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "text-align": "left",
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#ffffff",
+        "color": "#000000",
+        "font-family": "Crimson Text, serif",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#e6e6e6",
+          "color": "#000000"
+        },
+        "border-radius": "5px",
+        ":focus": {
+          "background-color": "#e6e6e6"
+        },
+        "font-weight": "normal"
+      },
+      "variantTitle": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "description": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "quantityInput": {
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
+      },
+      "compareAt": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      }
+    },
+    "googleFonts": [
+      "Crimson Text"
+    ]
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "styles": {
+      "button": {
+        "background-color": "#ffffff",
+        "color": "#000000",
+        "font-family": "Crimson Text, serif",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#e6e6e6",
+          "color": "#000000"
+        },
+        "border-radius": "5px",
+        ":focus": {
+          "background-color": "#e6e6e6"
+        },
+        "font-weight": "normal"
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    },
+    "googleFonts": [
+      "Crimson Text"
+    ]
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#ffffff",
+        "color": "#000000",
+        "font-family": "Crimson Text, serif",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#e6e6e6",
+          "color": "#000000"
+        },
+        "border-radius": "5px",
+        ":focus": {
+          "background-color": "#e6e6e6"
+        },
+        "font-weight": "normal"
+      },
+      "variantTitle": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "description": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "quantityInput": {
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
+      },
+      "compareAt": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      }
+    },
+    "googleFonts": [
+      "Crimson Text"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Crimson Text, serif",
+        "background-color": "#ffffff",
+        ":hover": {
+          "background-color": "#e6e6e6"
+        },
+        ":focus": {
+          "background-color": "#e6e6e6"
+        },
+        "font-weight": "normal"
+      },
+      "count": {
+        "font-size": "15px",
+        "color": "#000000",
+        ":hover": {
+          "color": "#000000"
+        }
+      },
+      "iconPath": {
+        "fill": "#000000"
+      }
+    },
+    "googleFonts": [
+      "Crimson Text"
+    ]
+  },
+  "option": {
+    "styles": {
+      "label": {
+        "font-family": "Candara, sans-serif"
+      },
+      "select": {
+        "font-family": "Candara, sans-serif"
+      }
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+          });
+        });
+      }
+    })();
+    /*]]>*/
+    </script>
             <!-- Modal -->
             <div id="myModal54" class="modal fade" role="dialog">
               <div class="modal-dialog modal-lg">
@@ -179,7 +667,251 @@
             <pclass="text-black-50 mb-0"> 13 500</p>
 
             <!-- Trigger the modal with a button -->
-            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#myModal51">More Images</button>
+            <div id='product-component-9a494e53d1a'></div>
+      <script type="text/javascript">
+      /*<![CDATA[*/
+
+      (function () {
+        var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+        if (window.ShopifyBuy) {
+          if (window.ShopifyBuy.UI) {
+            ShopifyBuyInit();
+          } else {
+            loadScript();
+          }
+        } else {
+          loadScript();
+        }
+
+        function loadScript() {
+          var script = document.createElement('script');
+          script.async = true;
+          script.src = scriptURL;
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+          script.onload = ShopifyBuyInit;
+        }
+
+        function ShopifyBuyInit() {
+          var client = ShopifyBuy.buildClient({
+            domain: 'vonessendesign.myshopify.com',
+            storefrontAccessToken: 'c2c33151f4ffa6eeba4fecef59be5e11',
+          });
+
+          ShopifyBuy.UI.onReady(client).then(function (ui) {
+            ui.createComponent('product', {
+              id: [3705897025589],
+              node: document.getElementById('product-component-9a494e53d1a'),
+              moneyFormat: '%7B%7Bamount_no_decimals%7D%7D%20kr',
+              options: {
+    "product": {
+      "variantId": "all",
+      "width": "240px",
+      "contents": {
+        "img": false,
+        "imgWithCarousel": false,
+        "title": false,
+        "variantTitle": false,
+        "price": false,
+        "description": false,
+        "buttonWithQuantity": false,
+        "quantity": false
+      },
+      "styles": {
+        "product": {
+          "text-align": "left",
+          "@media (min-width: 601px)": {
+            "max-width": "calc(25% - 20px)",
+            "margin-left": "20px",
+            "margin-bottom": "50px"
+          }
+        },
+        "button": {
+          "background-color": "#ffffff",
+          "color": "#000000",
+          "font-family": "Crimson Text, serif",
+          "font-size": "15px",
+          "padding-top": "15.5px",
+          "padding-bottom": "15.5px",
+          ":hover": {
+            "background-color": "#e6e6e6",
+            "color": "#000000"
+          },
+          "border-radius": "5px",
+          ":focus": {
+            "background-color": "#e6e6e6"
+          },
+          "font-weight": "normal"
+        },
+        "variantTitle": {
+          "font-family": "Candara, sans-serif",
+          "font-weight": "normal"
+        },
+        "description": {
+          "font-family": "Candara, sans-serif",
+          "font-weight": "normal"
+        },
+        "price": {
+          "font-family": "Candara, sans-serif",
+          "font-weight": "normal"
+        },
+        "quantityInput": {
+          "font-size": "15px",
+          "padding-top": "15.5px",
+          "padding-bottom": "15.5px"
+        },
+        "compareAt": {
+          "font-family": "Candara, sans-serif",
+          "font-weight": "normal"
+        }
+      },
+      "googleFonts": [
+        "Crimson Text"
+      ]
+    },
+    "cart": {
+      "contents": {
+        "button": true
+      },
+      "styles": {
+        "button": {
+          "background-color": "#ffffff",
+          "color": "#000000",
+          "font-family": "Crimson Text, serif",
+          "font-size": "15px",
+          "padding-top": "15.5px",
+          "padding-bottom": "15.5px",
+          ":hover": {
+            "background-color": "#e6e6e6",
+            "color": "#000000"
+          },
+          "border-radius": "5px",
+          ":focus": {
+            "background-color": "#e6e6e6"
+          },
+          "font-weight": "normal"
+        },
+        "footer": {
+          "background-color": "#ffffff"
+        }
+      },
+      "googleFonts": [
+        "Crimson Text"
+      ]
+    },
+    "modalProduct": {
+      "contents": {
+        "img": false,
+        "imgWithCarousel": true,
+        "variantTitle": false,
+        "buttonWithQuantity": true,
+        "button": false,
+        "quantity": false
+      },
+      "styles": {
+        "product": {
+          "@media (min-width: 601px)": {
+            "max-width": "100%",
+            "margin-left": "0px",
+            "margin-bottom": "0px"
+          }
+        },
+        "button": {
+          "background-color": "#ffffff",
+          "color": "#000000",
+          "font-family": "Crimson Text, serif",
+          "font-size": "15px",
+          "padding-top": "15.5px",
+          "padding-bottom": "15.5px",
+          ":hover": {
+            "background-color": "#e6e6e6",
+            "color": "#000000"
+          },
+          "border-radius": "5px",
+          ":focus": {
+            "background-color": "#e6e6e6"
+          },
+          "font-weight": "normal"
+        },
+        "variantTitle": {
+          "font-family": "Candara, sans-serif",
+          "font-weight": "normal"
+        },
+        "description": {
+          "font-family": "Candara, sans-serif",
+          "font-weight": "normal"
+        },
+        "price": {
+          "font-family": "Candara, sans-serif",
+          "font-weight": "normal"
+        },
+        "quantityInput": {
+          "font-size": "15px",
+          "padding-top": "15.5px",
+          "padding-bottom": "15.5px"
+        },
+        "compareAt": {
+          "font-family": "Candara, sans-serif",
+          "font-weight": "normal"
+        }
+      },
+      "googleFonts": [
+        "Crimson Text"
+      ]
+    },
+    "toggle": {
+      "styles": {
+        "toggle": {
+          "font-family": "Crimson Text, serif",
+          "background-color": "#ffffff",
+          ":hover": {
+            "background-color": "#e6e6e6"
+          },
+          ":focus": {
+            "background-color": "#e6e6e6"
+          },
+          "font-weight": "normal"
+        },
+        "count": {
+          "font-size": "15px",
+          "color": "#000000",
+          ":hover": {
+            "color": "#000000"
+          }
+        },
+        "iconPath": {
+          "fill": "#000000"
+        }
+      },
+      "googleFonts": [
+        "Crimson Text"
+      ]
+    },
+    "option": {
+      "styles": {
+        "label": {
+          "font-family": "Candara, sans-serif"
+        },
+        "select": {
+          "font-family": "Candara, sans-serif"
+        }
+      }
+    },
+    "productSet": {
+      "styles": {
+        "products": {
+          "@media (min-width: 601px)": {
+            "margin-left": "-20px"
+          }
+        }
+      }
+    }
+  }
+            });
+          });
+        }
+      })();
+      /*]]>*/
+      </script>
             <!-- Modal -->
             <div id="myModal51" class="modal fade" role="dialog">
               <div class="modal-dialog modal-lg">
@@ -220,7 +952,251 @@
             <pclass="text-black-50 mb-0"> 15 500</p>
 
             <!-- Trigger the modal with a button -->
-            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#myModal52">More Images</button>
+            <div id='product-component-6f04da6bf0f'></div>
+                <script type="text/javascript">
+                /*<![CDATA[*/
+
+                (function () {
+                  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+                  if (window.ShopifyBuy) {
+                    if (window.ShopifyBuy.UI) {
+                      ShopifyBuyInit();
+                    } else {
+                      loadScript();
+                    }
+                  } else {
+                    loadScript();
+                  }
+
+                  function loadScript() {
+                    var script = document.createElement('script');
+                    script.async = true;
+                    script.src = scriptURL;
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                    script.onload = ShopifyBuyInit;
+                  }
+
+                  function ShopifyBuyInit() {
+                    var client = ShopifyBuy.buildClient({
+                      domain: 'vonessendesign.myshopify.com',
+                      storefrontAccessToken: 'c2c33151f4ffa6eeba4fecef59be5e11',
+                    });
+
+                    ShopifyBuy.UI.onReady(client).then(function (ui) {
+                      ui.createComponent('product', {
+                        id: [3706810466357],
+                        node: document.getElementById('product-component-6f04da6bf0f'),
+                        moneyFormat: '%7B%7Bamount_no_decimals%7D%7D%20kr',
+                        options: {
+              "product": {
+                "variantId": "all",
+                "width": "240px",
+                "contents": {
+                  "img": false,
+                  "imgWithCarousel": false,
+                  "title": false,
+                  "variantTitle": false,
+                  "price": false,
+                  "description": false,
+                  "buttonWithQuantity": false,
+                  "quantity": false
+                },
+                "styles": {
+                  "product": {
+                    "text-align": "left",
+                    "@media (min-width: 601px)": {
+                      "max-width": "calc(25% - 20px)",
+                      "margin-left": "20px",
+                      "margin-bottom": "50px"
+                    }
+                  },
+                  "button": {
+                    "background-color": "#ffffff",
+                    "color": "#000000",
+                    "font-family": "Crimson Text, serif",
+                    "font-size": "15px",
+                    "padding-top": "15.5px",
+                    "padding-bottom": "15.5px",
+                    ":hover": {
+                      "background-color": "#e6e6e6",
+                      "color": "#000000"
+                    },
+                    "border-radius": "5px",
+                    ":focus": {
+                      "background-color": "#e6e6e6"
+                    },
+                    "font-weight": "normal"
+                  },
+                  "variantTitle": {
+                    "font-family": "Candara, sans-serif",
+                    "font-weight": "normal"
+                  },
+                  "description": {
+                    "font-family": "Candara, sans-serif",
+                    "font-weight": "normal"
+                  },
+                  "price": {
+                    "font-family": "Candara, sans-serif",
+                    "font-weight": "normal"
+                  },
+                  "quantityInput": {
+                    "font-size": "15px",
+                    "padding-top": "15.5px",
+                    "padding-bottom": "15.5px"
+                  },
+                  "compareAt": {
+                    "font-family": "Candara, sans-serif",
+                    "font-weight": "normal"
+                  }
+                },
+                "googleFonts": [
+                  "Crimson Text"
+                ]
+              },
+              "cart": {
+                "contents": {
+                  "button": true
+                },
+                "styles": {
+                  "button": {
+                    "background-color": "#ffffff",
+                    "color": "#000000",
+                    "font-family": "Crimson Text, serif",
+                    "font-size": "15px",
+                    "padding-top": "15.5px",
+                    "padding-bottom": "15.5px",
+                    ":hover": {
+                      "background-color": "#e6e6e6",
+                      "color": "#000000"
+                    },
+                    "border-radius": "5px",
+                    ":focus": {
+                      "background-color": "#e6e6e6"
+                    },
+                    "font-weight": "normal"
+                  },
+                  "footer": {
+                    "background-color": "#ffffff"
+                  }
+                },
+                "googleFonts": [
+                  "Crimson Text"
+                ]
+              },
+              "modalProduct": {
+                "contents": {
+                  "img": false,
+                  "imgWithCarousel": true,
+                  "variantTitle": false,
+                  "buttonWithQuantity": true,
+                  "button": false,
+                  "quantity": false
+                },
+                "styles": {
+                  "product": {
+                    "@media (min-width: 601px)": {
+                      "max-width": "100%",
+                      "margin-left": "0px",
+                      "margin-bottom": "0px"
+                    }
+                  },
+                  "button": {
+                    "background-color": "#ffffff",
+                    "color": "#000000",
+                    "font-family": "Crimson Text, serif",
+                    "font-size": "15px",
+                    "padding-top": "15.5px",
+                    "padding-bottom": "15.5px",
+                    ":hover": {
+                      "background-color": "#e6e6e6",
+                      "color": "#000000"
+                    },
+                    "border-radius": "5px",
+                    ":focus": {
+                      "background-color": "#e6e6e6"
+                    },
+                    "font-weight": "normal"
+                  },
+                  "variantTitle": {
+                    "font-family": "Candara, sans-serif",
+                    "font-weight": "normal"
+                  },
+                  "description": {
+                    "font-family": "Candara, sans-serif",
+                    "font-weight": "normal"
+                  },
+                  "price": {
+                    "font-family": "Candara, sans-serif",
+                    "font-weight": "normal"
+                  },
+                  "quantityInput": {
+                    "font-size": "15px",
+                    "padding-top": "15.5px",
+                    "padding-bottom": "15.5px"
+                  },
+                  "compareAt": {
+                    "font-family": "Candara, sans-serif",
+                    "font-weight": "normal"
+                  }
+                },
+                "googleFonts": [
+                  "Crimson Text"
+                ]
+              },
+              "toggle": {
+                "styles": {
+                  "toggle": {
+                    "font-family": "Crimson Text, serif",
+                    "background-color": "#ffffff",
+                    ":hover": {
+                      "background-color": "#e6e6e6"
+                    },
+                    ":focus": {
+                      "background-color": "#e6e6e6"
+                    },
+                    "font-weight": "normal"
+                  },
+                  "count": {
+                    "font-size": "15px",
+                    "color": "#000000",
+                    ":hover": {
+                      "color": "#000000"
+                    }
+                  },
+                  "iconPath": {
+                    "fill": "#000000"
+                  }
+                },
+                "googleFonts": [
+                  "Crimson Text"
+                ]
+              },
+              "option": {
+                "styles": {
+                  "label": {
+                    "font-family": "Candara, sans-serif"
+                  },
+                  "select": {
+                    "font-family": "Candara, sans-serif"
+                  }
+                }
+              },
+              "productSet": {
+                "styles": {
+                  "products": {
+                    "@media (min-width: 601px)": {
+                      "margin-left": "-20px"
+                    }
+                  }
+                }
+              }
+            }
+                      });
+                    });
+                  }
+                })();
+                /*]]>*/
+                </script>
             <!-- Modal -->
             <div id="myModal52" class="modal fade" role="dialog">
               <div class="modal-dialog modal-lg">
@@ -262,7 +1238,251 @@
             <pclass="text-black-50 mb-0"> 26 000</p>
 
             <!-- Trigger the modal with a button -->
-            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#myModal50">More Images</button>
+            <div id='product-component-1e9bf943f88'></div>
+    <script type="text/javascript">
+    /*<![CDATA[*/
+
+    (function () {
+      var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+      if (window.ShopifyBuy) {
+        if (window.ShopifyBuy.UI) {
+          ShopifyBuyInit();
+        } else {
+          loadScript();
+        }
+      } else {
+        loadScript();
+      }
+
+      function loadScript() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = scriptURL;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+        script.onload = ShopifyBuyInit;
+      }
+
+      function ShopifyBuyInit() {
+        var client = ShopifyBuy.buildClient({
+          domain: 'vonessendesign.myshopify.com',
+          storefrontAccessToken: 'c2c33151f4ffa6eeba4fecef59be5e11',
+        });
+
+        ShopifyBuy.UI.onReady(client).then(function (ui) {
+          ui.createComponent('product', {
+            id: [3706811940917],
+            node: document.getElementById('product-component-1e9bf943f88'),
+            moneyFormat: '%7B%7Bamount_no_decimals%7D%7D%20kr',
+            options: {
+  "product": {
+    "variantId": "all",
+    "width": "240px",
+    "contents": {
+      "img": false,
+      "imgWithCarousel": false,
+      "title": false,
+      "variantTitle": false,
+      "price": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "text-align": "left",
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#ffffff",
+        "color": "#000000",
+        "font-family": "Crimson Text, serif",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#e6e6e6",
+          "color": "#000000"
+        },
+        "border-radius": "5px",
+        ":focus": {
+          "background-color": "#e6e6e6"
+        },
+        "font-weight": "normal"
+      },
+      "variantTitle": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "description": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "quantityInput": {
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
+      },
+      "compareAt": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      }
+    },
+    "googleFonts": [
+      "Crimson Text"
+    ]
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "styles": {
+      "button": {
+        "background-color": "#ffffff",
+        "color": "#000000",
+        "font-family": "Crimson Text, serif",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#e6e6e6",
+          "color": "#000000"
+        },
+        "border-radius": "5px",
+        ":focus": {
+          "background-color": "#e6e6e6"
+        },
+        "font-weight": "normal"
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    },
+    "googleFonts": [
+      "Crimson Text"
+    ]
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#ffffff",
+        "color": "#000000",
+        "font-family": "Crimson Text, serif",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#e6e6e6",
+          "color": "#000000"
+        },
+        "border-radius": "5px",
+        ":focus": {
+          "background-color": "#e6e6e6"
+        },
+        "font-weight": "normal"
+      },
+      "variantTitle": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "description": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "quantityInput": {
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
+      },
+      "compareAt": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      }
+    },
+    "googleFonts": [
+      "Crimson Text"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Crimson Text, serif",
+        "background-color": "#ffffff",
+        ":hover": {
+          "background-color": "#e6e6e6"
+        },
+        ":focus": {
+          "background-color": "#e6e6e6"
+        },
+        "font-weight": "normal"
+      },
+      "count": {
+        "font-size": "15px",
+        "color": "#000000",
+        ":hover": {
+          "color": "#000000"
+        }
+      },
+      "iconPath": {
+        "fill": "#000000"
+      }
+    },
+    "googleFonts": [
+      "Crimson Text"
+    ]
+  },
+  "option": {
+    "styles": {
+      "label": {
+        "font-family": "Candara, sans-serif"
+      },
+      "select": {
+        "font-family": "Candara, sans-serif"
+      }
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+          });
+        });
+      }
+    })();
+    /*]]>*/
+    </script>
             <!-- Modal -->
             <div id="myModal50" class="modal fade" role="dialog">
               <div class="modal-dialog modal-lg">
@@ -391,7 +1611,251 @@
             <pclass="text-black-50 mb-0"> 15 900</p>
 
             <!-- Trigger the modal with a button -->
-            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#myModal47">More Images</button>
+            <div id='product-component-dc0aba955aa'></div>
+    <script type="text/javascript">
+    /*<![CDATA[*/
+
+    (function () {
+      var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+      if (window.ShopifyBuy) {
+        if (window.ShopifyBuy.UI) {
+          ShopifyBuyInit();
+        } else {
+          loadScript();
+        }
+      } else {
+        loadScript();
+      }
+
+      function loadScript() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = scriptURL;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+        script.onload = ShopifyBuyInit;
+      }
+
+      function ShopifyBuyInit() {
+        var client = ShopifyBuy.buildClient({
+          domain: 'vonessendesign.myshopify.com',
+          storefrontAccessToken: 'c2c33151f4ffa6eeba4fecef59be5e11',
+        });
+
+        ShopifyBuy.UI.onReady(client).then(function (ui) {
+          ui.createComponent('product', {
+            id: [3706813317173],
+            node: document.getElementById('product-component-dc0aba955aa'),
+            moneyFormat: '%7B%7Bamount_no_decimals%7D%7D%20kr',
+            options: {
+  "product": {
+    "variantId": "all",
+    "width": "240px",
+    "contents": {
+      "img": false,
+      "imgWithCarousel": false,
+      "title": false,
+      "variantTitle": false,
+      "price": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "text-align": "left",
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#ffffff",
+        "color": "#000000",
+        "font-family": "Crimson Text, serif",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#e6e6e6",
+          "color": "#000000"
+        },
+        "border-radius": "5px",
+        ":focus": {
+          "background-color": "#e6e6e6"
+        },
+        "font-weight": "normal"
+      },
+      "variantTitle": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "description": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "quantityInput": {
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
+      },
+      "compareAt": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      }
+    },
+    "googleFonts": [
+      "Crimson Text"
+    ]
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "styles": {
+      "button": {
+        "background-color": "#ffffff",
+        "color": "#000000",
+        "font-family": "Crimson Text, serif",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#e6e6e6",
+          "color": "#000000"
+        },
+        "border-radius": "5px",
+        ":focus": {
+          "background-color": "#e6e6e6"
+        },
+        "font-weight": "normal"
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    },
+    "googleFonts": [
+      "Crimson Text"
+    ]
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#ffffff",
+        "color": "#000000",
+        "font-family": "Crimson Text, serif",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#e6e6e6",
+          "color": "#000000"
+        },
+        "border-radius": "5px",
+        ":focus": {
+          "background-color": "#e6e6e6"
+        },
+        "font-weight": "normal"
+      },
+      "variantTitle": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "description": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "quantityInput": {
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
+      },
+      "compareAt": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      }
+    },
+    "googleFonts": [
+      "Crimson Text"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Crimson Text, serif",
+        "background-color": "#ffffff",
+        ":hover": {
+          "background-color": "#e6e6e6"
+        },
+        ":focus": {
+          "background-color": "#e6e6e6"
+        },
+        "font-weight": "normal"
+      },
+      "count": {
+        "font-size": "15px",
+        "color": "#000000",
+        ":hover": {
+          "color": "#000000"
+        }
+      },
+      "iconPath": {
+        "fill": "#000000"
+      }
+    },
+    "googleFonts": [
+      "Crimson Text"
+    ]
+  },
+  "option": {
+    "styles": {
+      "label": {
+        "font-family": "Candara, sans-serif"
+      },
+      "select": {
+        "font-family": "Candara, sans-serif"
+      }
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+          });
+        });
+      }
+    })();
+    /*]]>*/
+    </script>
             <!-- Modal -->
             <div id="myModal47" class="modal fade" role="dialog">
               <div class="modal-dialog modal-lg">
@@ -434,7 +1898,251 @@
             <pclass="text-black-50 mb-0"> 13 900</p>
 
             <!-- Trigger the modal with a button -->
-            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#myModal46">More Images</button>
+            <div id='product-component-6be0d44fb83'></div>
+    <script type="text/javascript">
+    /*<![CDATA[*/
+
+    (function () {
+      var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+      if (window.ShopifyBuy) {
+        if (window.ShopifyBuy.UI) {
+          ShopifyBuyInit();
+        } else {
+          loadScript();
+        }
+      } else {
+        loadScript();
+      }
+
+      function loadScript() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = scriptURL;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+        script.onload = ShopifyBuyInit;
+      }
+
+      function ShopifyBuyInit() {
+        var client = ShopifyBuy.buildClient({
+          domain: 'vonessendesign.myshopify.com',
+          storefrontAccessToken: 'c2c33151f4ffa6eeba4fecef59be5e11',
+        });
+
+        ShopifyBuy.UI.onReady(client).then(function (ui) {
+          ui.createComponent('product', {
+            id: [3706814988341],
+            node: document.getElementById('product-component-6be0d44fb83'),
+            moneyFormat: '%7B%7Bamount_no_decimals%7D%7D%20kr',
+            options: {
+  "product": {
+    "variantId": "all",
+    "width": "240px",
+    "contents": {
+      "img": false,
+      "imgWithCarousel": false,
+      "title": false,
+      "variantTitle": false,
+      "price": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "text-align": "left",
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#ffffff",
+        "color": "#000000",
+        "font-family": "Crimson Text, serif",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#e6e6e6",
+          "color": "#000000"
+        },
+        "border-radius": "5px",
+        ":focus": {
+          "background-color": "#e6e6e6"
+        },
+        "font-weight": "normal"
+      },
+      "variantTitle": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "description": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "quantityInput": {
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
+      },
+      "compareAt": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      }
+    },
+    "googleFonts": [
+      "Crimson Text"
+    ]
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "styles": {
+      "button": {
+        "background-color": "#ffffff",
+        "color": "#000000",
+        "font-family": "Crimson Text, serif",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#e6e6e6",
+          "color": "#000000"
+        },
+        "border-radius": "5px",
+        ":focus": {
+          "background-color": "#e6e6e6"
+        },
+        "font-weight": "normal"
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    },
+    "googleFonts": [
+      "Crimson Text"
+    ]
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#ffffff",
+        "color": "#000000",
+        "font-family": "Crimson Text, serif",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#e6e6e6",
+          "color": "#000000"
+        },
+        "border-radius": "5px",
+        ":focus": {
+          "background-color": "#e6e6e6"
+        },
+        "font-weight": "normal"
+      },
+      "variantTitle": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "description": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      },
+      "quantityInput": {
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
+      },
+      "compareAt": {
+        "font-family": "Candara, sans-serif",
+        "font-weight": "normal"
+      }
+    },
+    "googleFonts": [
+      "Crimson Text"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Crimson Text, serif",
+        "background-color": "#ffffff",
+        ":hover": {
+          "background-color": "#e6e6e6"
+        },
+        ":focus": {
+          "background-color": "#e6e6e6"
+        },
+        "font-weight": "normal"
+      },
+      "count": {
+        "font-size": "15px",
+        "color": "#000000",
+        ":hover": {
+          "color": "#000000"
+        }
+      },
+      "iconPath": {
+        "fill": "#000000"
+      }
+    },
+    "googleFonts": [
+      "Crimson Text"
+    ]
+  },
+  "option": {
+    "styles": {
+      "label": {
+        "font-family": "Candara, sans-serif"
+      },
+      "select": {
+        "font-family": "Candara, sans-serif"
+      }
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+          });
+        });
+      }
+    })();
+    /*]]>*/
+    </script>
             <!-- Modal -->
             <div id="myModal46" class="modal fade" role="dialog">
               <div class="modal-dialog modal-lg">
